@@ -52,7 +52,7 @@ Restrictions on the number of technical personnel and different load on the MBS
 It is important for maintenance teams to know in advance about possible incidents and breakdowns in order to more effectively distribute the load and plan work
 Technical availability of MBS monitoring systems in the following areas: weather conditions, humidity, fires, burglaries, power supply, condition of components
 
-**ABS Information System Structure Description **
+**ABS Information System Structure Description**
 
 1) ABS condition monitoring
 Using Automated systems for monitoring cellular base stations, we obtain the following information about the state of the base station:
