@@ -11,6 +11,7 @@ Team members:
 
 
 **Overview**
+
 ABS Information System is a system that provides the information about ABS maintenance using predictive analytics based on data received from telemetry and other data sources.
 ABS Information System consists of
 
@@ -31,6 +32,7 @@ resource use.
 
 
 **Stakeholders**
+
 | **Stakeholder** | **Concerns** |
 | --- | --- |
 | Customer| Timely correct network operation for personal tasks |
@@ -41,10 +43,12 @@ resource use.
 
 
 **Constraints**
+
 Limited number of external selected factors to control
 Restrictions on the number of technical personnel and different load on the MBS
 
 **Assumptions**
+
 It is important for maintenance teams to know in advance about possible incidents and breakdowns in order to more effectively distribute the load and plan work
 Technical availability of MBS monitoring systems in the following areas: weather conditions, humidity, fires, burglaries, power supply, condition of components
 
@@ -78,7 +82,8 @@ Additional Resources on External Factors:
 4) ABS plan/fact maintenance
 
 **ABS Information System Elements Integration Description**
-![alt-текст](https://drive.google.com/file/d/19x73r3oSQRXlZ5dHP8Zqh5CViv-Wlf3j/view?usp=sharing)
+
+![alt-текст](https://github.com/asmalkova/MTC_Katas_Lamoda_team/blob/main/Architecture%20solution.png)
 
 Network layer - contains three different quality tracking controllers, that were mentioned above: condition sensor, controller sensor, mobile communication quality system
 
@@ -90,7 +95,7 @@ Management system layer - is necessary to accumulate information and analyze wha
 
 Presentation layer - represented in two forms: reporting system is presented in the form of a bot that sends an alert to technicians (in case the machine learning system could not offer a solution to the problem) and in the form of a dashboard that accumulates information and statistics.
 
-Data Model
+**Data Model**
 
 
 **List of significant architectural properties**
