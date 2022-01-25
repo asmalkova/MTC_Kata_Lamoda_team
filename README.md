@@ -97,6 +97,7 @@ Presentation layer - represented in two forms: reporting system is presented in 
 
 **Data Model**
 
+![alt-текст](https://github.com/asmalkova/MTC_Katas_Lamoda_team/blob/main/Data%20model.png)
 
 **List of significant architectural properties**
 
