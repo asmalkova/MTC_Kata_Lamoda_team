@@ -102,8 +102,7 @@ List of major architectural decisions and their rationale
 | --- | --- |
 | Apache HBASE for data storing| The open source NoSQL DBMS is already used in the company. Runs on top of the HDFS distributed file system and provides BigTable capabilities for Hadoop, providing a fault-tolerant way to store large amounts of sparse data |
 | Meditation layer for communication of two levels | The need to convert data from sensors into one of the established forms for storage. For this, two types of adapters were chosen:  streaming and text files|
-|Reporting system is presented in the form of a bot |t
-The need to automate the process of manually registering incidents and assigning service teams in view of reducing the time for solving problem situations |
+|Reporting system is presented in the form of a bot |The need to automate the process of manually registering incidents and assigning service teams in view of reducing the time for solving problem situations |
 |Grafana for for monitoring data visualization |The need to monitor indicators and metrics to assess the condition of the equipment, as well as the effectiveness of its maintenance. Chosen because it is a multi-platform open source analytics and interactive visualization platform. It is designed to provide context-rich visualizations, primarily through graphs, but it also supports other methods of presenting data due to its plug-in panel architecture. Each control panel is customizable to meet the needs of a particular project.|
 
 
