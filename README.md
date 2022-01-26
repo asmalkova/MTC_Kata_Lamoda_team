@@ -52,6 +52,30 @@ Restrictions on the number of technical personnel and different load on the MBS
 It is important for maintenance teams to know in advance about possible incidents and breakdowns in order to more effectively distribute the load and plan work
 Technical availability of MBS monitoring systems in the following areas: weather conditions, humidity, fires, burglaries, power supply, condition of components
 
+**System Requirements**
+
+Functional requirements:
+1 - Online decision management
+2 - Personalization according to preferences and level of service consumption
+3 - Optimization of maintenance resources
+4 - Alert teams in real time in case of incidents
+5 - Third party operators have the ability to share data
+6 - Generation and interpretation of telemetry data for testing hypotheses regarding ABS capabilities
+7 - Increase the influx and conversion of loyal customers
+8 - Clear visualization of processes and data for stakeholders
+
+Architecture performance requirements:
+1 - Scalability. There is a load with an increase in the flow of data, architectural modules, as well as the possibility of sharing modules and solutions for third-party stakeholders.
+2 - Flexibility. It is possible to test new functionality on a limited number of clients (for example, on a small sample of loyal client employees) or redundant modules in order to debug and minimize the impact of incidents on clients.
+3 - Data privacy. Personal data must be accessed in a dedicated domain network without access to external networks.
+4 - Reliability. The presence of extra transient modes of operation in the event of incidents.
+
+Functions:
+1 - The percentage of errors during microservice interaction is not more than 1%. Validation by running the query generator against multiple copies of an instance.
+2 - Imitation of violation of data consistency on the test bench. Checking the transition of clients to the backup module from the main module.
+3 - The call is made via https. Verification by counting the number of other hits.
+2 - ALS level 99.97%. Conducting load testing.
+
 **ABS Information System Structure Description**
 
 1) ABS condition monitoring
