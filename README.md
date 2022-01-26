@@ -15,11 +15,10 @@ Team members:
 ABS Information System is a system that provides the information about ABS maintenance using predictive analytics based on data received from telemetry and other data sources.
 ABS Information System consists of
 
-- datamarts and dashboard for ABS condition monitoring
-- datamarts and dashboard for ABS exploitation monitoring
-- datamarts and dashboard for ABS external problems monitoring
-- datamarts and dashboard for ABS plan/fact maintenance monitoring
-- data mart, forecasting model, dashboard for ABS maintenance 
+- Data coming from condition sensor, controller sensor, mobile communication quality system
+- DB Apache HBASE as the main data warehouse for sensor data
+- Management System for data processing and analysis
+- Visualization and Reporting System for monitoring metrics and alerting in critical situations
 
 
 **Business Case and Goals**
